@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const App = () => {
+  const [greeting, setGreeting] = useState('Venus')
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Hello {greeting}</h1>
     </>
   )
 }
